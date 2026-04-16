@@ -13,10 +13,10 @@ with st.sidebar:
   
     # Drawing mode selector
     drawing_mode = st.selectbox
-    (
+    
         "Herramienta de Dibujo:",
         ("freedraw", "line", "rect", "circle", "transform", "polygon", "point").
-    )
+    
       # Stroke width slider
     stroke_width = st.slider('Selecciona línea', 1, 30, 15)
       # Stroke color picker
