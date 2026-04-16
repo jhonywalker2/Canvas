@@ -13,7 +13,6 @@ with st.sidebar:
   
     # Drawing mode selector
     drawing_mode = st.selectbox
-    
         "Herramienta de Dibujo:",
         ("freedraw", "line", "rect", "circle", "transform", "polygon", "point").
     
